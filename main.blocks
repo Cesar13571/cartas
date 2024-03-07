@@ -1,1 +1,7 @@
-<xml xmlns="https://developers.google.com/blockly/xml"></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="@G5|1]L_.Xd/Yy/S6B73" x="0" y="0"><statement name="HANDLER"><block type="controls_if" id="w,!AW[jyrqCK?hGA.~*1"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="cvEyIsOUu|h=LO9zp$K6"><field name="OP">GT</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="device_get_light_level" id="Q6DG135SMbQATdWeQdm*"></block></value><value name="B"><shadow type="math_number" id="Utr8V~p6CXAbvXSDPE|Q"><field name="NUM">100</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="iJE4LA.*m0G22-a{?t_0"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # . # . 
+        . # # # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_clear_display" id="A`Y1A}D|u4$l*^+5d~Ey"><next><block type="basic_show_icon" id="`B/ejOvx^I5XBQz{Qe:1"><field name="i">IconNames.Sad</field></block></next></block></statement></block></statement></block></xml>
